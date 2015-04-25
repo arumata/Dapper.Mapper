@@ -45,9 +45,6 @@
     <Compile Include="SqlMapper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\..\..\dapper-dot-net\Dapper NET40\Dapper NET40.csproj">
       <Project>{daf737e1-05b5-4189-a5aa-dac6233b64d7}</Project>
       <Name>Dapper NET40</Name>
