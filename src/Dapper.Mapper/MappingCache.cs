@@ -7,7 +7,7 @@ using System.Reflection;
 
 namespace Dapper.Mapper
 {
-    internal static class MappingCache
+    public static class MappingCache
     {
         internal static Expression GetSetExpression(ParameterExpression sourceExpression, params ParameterExpression[] destinationExpressions)
         {
@@ -34,7 +34,7 @@ namespace Dapper.Mapper
         }
     }
 
-    internal static class MappingCache<TFirst, TSecond>
+    public static class MappingCache<TFirst, TSecond>
     {
         static MappingCache()
         {
@@ -48,10 +48,10 @@ namespace Dapper.Mapper
             Map = Expression.Lambda<Func<TFirst, TSecond, TFirst>>(blockExpression, first, second).Compile();
         }
 
-        internal static Func<TFirst, TSecond, TFirst> Map { get; private set; }
+        public static Func<TFirst, TSecond, TFirst> Map { get; private set; }
     }
 
-    internal static class MappingCache<TFirst, TSecond, TThird>
+    public static class MappingCache<TFirst, TSecond, TThird>
     {
         static MappingCache()
         {
@@ -67,7 +67,7 @@ namespace Dapper.Mapper
             Map = Expression.Lambda<Func<TFirst, TSecond, TThird, TFirst>>(blockExpression, first, second, third).Compile();
         }
 
-        internal static Func<TFirst, TSecond, TThird, TFirst> Map { get; private set; }
+        public static Func<TFirst, TSecond, TThird, TFirst> Map { get; private set; }
     }
 
     internal static class MappingCache<TFirst, TSecond, TThird, TFourth>
