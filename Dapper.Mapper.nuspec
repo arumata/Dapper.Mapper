@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata schemaVersion="2">
-    <id>Dapper.Mapper</id>
+    <id>Dapper.Mapper.A</id>
     <version>1.13</version>
     <title>Dapper.Mapper</title>
-    <authors>Arjen Post</authors>
+    <authors>Arjen Post,Arumata</authors>
     <owners>Arjen Post</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <projectUrl>https://github.com/dotarj/Dapper.Mapper</projectUrl>
