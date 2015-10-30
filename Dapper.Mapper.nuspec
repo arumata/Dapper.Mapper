@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata schemaVersion="2">
-    <id>Dapper.Mapper.A</id>
+    <id>Dapper.Mapper</id>
     <version>1.13</version>
     <title>Dapper.Mapper</title>
-    <authors>Arjen Post,Arumata</authors>
+    <authors>Arjen Post</authors>
     <owners>Arjen Post</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-    <projectUrl>https://github.com/arumata/Dapper.Mapper</projectUrl>
+    <projectUrl>https://github.com/dotarj/Dapper.Mapper</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Dapper.Mapper is an extension to Dapper multi mapping which figures out the relationships between the returned objects and automatically assigns them.
