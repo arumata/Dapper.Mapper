@@ -7,7 +7,7 @@
     <authors>Arjen Post,Arumata</authors>
     <owners>Arjen Post</owners>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-    <projectUrl>https://github.com/dotarj/Dapper.Mapper</projectUrl>
+    <projectUrl>https://github.com/arumata/Dapper.Mapper</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       Dapper.Mapper is an extension to Dapper multi mapping which figures out the relationships between the returned objects and automatically assigns them.
